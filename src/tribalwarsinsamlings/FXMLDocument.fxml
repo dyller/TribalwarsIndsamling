@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" onKeyPressed="#enter" prefHeight="495.0" prefWidth="572.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tribalwarsinsamlings.FXMLDocumentController">
+    <children>
+      <TextField fx:id="spyd" layoutX="33.0" layoutY="58.0" onKeyTyped="#enter" prefHeight="25.0" prefWidth="69.0" promptText="spyd" />
+      <TextField fx:id="sværd" layoutX="111.0" layoutY="58.0" onKeyPressed="#enter" prefHeight="25.0" prefWidth="69.0" promptText="sværd" />
+      <TextField fx:id="økse" layoutX="195.0" layoutY="58.0" onKeyPressed="#enter" prefHeight="25.0" prefWidth="69.0" promptText="økse" />
+      <TextField fx:id="lk" layoutX="286.0" layoutY="58.0" onKeyPressed="#enter" prefHeight="25.0" prefWidth="69.0" promptText="lk" />
+      <TextField fx:id="tk" layoutX="374.0" layoutY="58.0" onKeyPressed="#enter" prefHeight="25.0" prefWidth="69.0" promptText="tk" />
+      <Button fx:id="beregn" layoutX="484.0" layoutY="58.0" mnemonicParsing="false" onAction="#beregn" text="Beregn" />
+      <TextField fx:id="lvl" layoutX="37.0" layoutY="108.0" onKeyPressed="#enter" promptText="lvl" />
+      <TextField fx:id="speedfac" layoutX="292.0" layoutY="108.0" onKeyPressed="#enter" />
+      <ListView fx:id="udregning" layoutX="33.0" layoutY="141.0" onKeyPressed="#enter" prefHeight="316.0" prefWidth="517.0" />
+      <Label layoutX="37.0" layoutY="29.0" text="Spyd" />
+      <Label layoutX="112.0" layoutY="29.0" text="Sværd" />
+      <Label layoutX="195.0" layoutY="29.0" text="økse" />
+      <Label layoutX="286.0" layoutY="29.0" text="LK" />
+      <Label layoutX="374.0" layoutY="29.0" text="tk" />
+      <Label layoutX="37.0" layoutY="91.0" text="Hvor mange område udforsket" />
+      <Label layoutX="293.0" layoutY="91.0" text="Indsamling speedfaktor (1-0) 1 er normal verden" />
+    </children>
+</AnchorPane>
